@@ -1,0 +1,73 @@
+img#homepage{
+	height: 50%;
+    width: 50%;
+  
+}
+
+img#production_detail{
+	height: 50%;
+    width: 50%;
+  
+}
+
+img#flight_information{
+	height: 50%;
+    width: 50%;
+  
+}
+
+img#special_product{
+	height: 50%;
+    width: 50%;
+  
+}
+
+img#contract{
+	height: 50%;
+    width: 50%;
+  
+}
+section#font{
+	font-size:20px;
+	font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", 
+}
+
+section#fontP{
+	font-size:20px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+
+img#white{
+	height: 30%;
+    width: 30%;
+  
+}
+
+img#yellow{
+	
+    width: 30%;
+  
+}
+
+.center{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+   height: 30%;
+    width: 30%;
+}
+
+.code{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+   height: 50%;
+    width: 50%;
+}
+
