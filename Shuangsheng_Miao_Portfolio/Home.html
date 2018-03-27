@@ -1,0 +1,127 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+   
+    <title>Home</title>
+     <script src="js/main.js" type="text/javascript"></script>
+   
+    <link href="css/main.css" rel="stylesheet">
+  
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/image.css" rel="stylesheet">
+    
+
+    
+</head>
+
+<body class="home-background">
+
+
+<div class="section">
+            
+            
+            <nav>
+                <a  href="#">Home</a>
+                <a  href="#">Project</a>
+                <a  href="#">Contract Me</a>
+            </nav>
+            
+        </div>
+
+        <div class="mobile-nav" style="display: none;">
+    <a href="index.html"  class="col-md-12 mobile-menu">Home</a>
+    <a href="package.html" class="col-md-12 mobile-menu">Project</a>
+    <a href="flight.html" class="col-md-12 mobile-menu">Contract Me</a>
+    
+</div>
+
+<div class="slider">
+    
+    <img class="home-slides" alt=" the image of the first slide" src="img/Homeimage1.png">
+    <img class="home-slides" alt=" the image of the second slide" src="img/Homeimage2.jpg">
+    <img class="home-slides" alt=" the image of the third slide" src="img/Homeimage3.jpg">
+</div>
+
+
+
+
+
+<div class="container" style="margin-bottom: 40px;">
+    <h2 >About Me</h2>
+    <div class="row recommend-row">
+        <div class="col-md-4 col-xs-12 recommend-div">
+
+            <div>
+                <img src="img/sfu.jpg" alt=" sfu school in surrey" style="height: 210px; width: 100%;">
+            </div>
+            
+            <h3>My School</h3>
+           
+            <p class="recommend-div-detail">Simon Fraser University, commonly referred to as SFU, is a public research university in British Columbia, Canada with campuses in Burnaby (Main Campus), Surrey, and Vancouver.
+            </p>
+           
+        </div>
+        <div class="col-md-4 col-xs-12 recommend-div">
+            <div>
+                <img src="img/kenny.jpg" style="width: 100%">
+            </div>
+            <h3>Myself: Kenny Miao</h3>
+          
+            <p class="recommend-div-detail">My name is Shuangsheng Miao, a fourth-year international student in the SIAT program. I am passionate about mobile apps development, website design and game design; those are the reasons why I chose SIAT in the first place. Before I chose this major, I thought I could easily design some popular artwork for users. After I got started in my studies I realized that my ideas were wrong. I need to do a lot of work before starting to design a project  such as analysis, tasks and evaluation. My goal is to design a good strategy game that can work with smart phone. 
+
+            </p>
+           
+           
+        </div>
+        <div class="col-md-4 col-xs-12 recommend-div">
+            <div>
+                <img src="img/powerful.jpg" style="height: 210px; width: 100%;">
+            </div>
+            <h3>Why choose me</h3>
+           
+            <p class="recommend-div-detail"> I have good self-study ability, and I am better at game design and website design, I can use much software of adobe. This skills can help me to design a beautiful UI of game and website. I am also better at coding; therefore, I want to get a job about the game design or website design.
+            </p>
+           
+        </div>
+    </div>     
+  
+</div>
+
+</body>
+
+<div class="footer">
+    <div class="row">
+       
+        <p>Copyright © 2018 IAT 339 - Kenny-Miao - All rights reserved.</p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    //Slide show Reference from https://www.w3schools.com/w3css/w3css_slideshow.asp
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("home-slides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 5000);
+    }
+</script>
+
+
+</html>

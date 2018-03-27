@@ -1,0 +1,45 @@
+.project-background{
+    
+    width:100%
+}
+/* do the image with text*/
+.project-container{
+    position: relative;
+    font-family: Arial;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    background-color: #666666;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+.project1-head{
+
+     position: relative;
+    left:5%;
+    font-size: 2em;
+
+
+}
+
+
+
+
+.project-color{
+    background-color:#e6e6e6;
+
+}
+
+
+
