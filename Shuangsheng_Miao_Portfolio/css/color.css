@@ -1,25 +1,29 @@
 .contract-color{
-	background-color:#F5F5F5;
+	background-color:#f3f3f3;
 }
 
 .project-color{
-	background-color: #F5F5F5;
+	background-color: #F8ECDE;
 }
 
 
 .project1-color{
-	background-color: #F5F5F5;
+	background-color: #F8ECDE;
 }
 
 
 .last-part{
 	margin-bottom: 5em;
-	background-color: #F5F5F5;
+	background-color: #F9DBC6;
 	font-size: 16px;
 }
 
 .pColor{
-	background-color: #F5F5F5;
+	background-color: #F9DBC6;
 	font-size: 16px;
+	margin-bottom: 4em;
 }
+
+body{
+	background-color: #D1E5E8;
 }

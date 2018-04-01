@@ -12,7 +12,7 @@
 	font-family: 'Roboto', sans-serif;
 	display: inline-block;
 	font-size: 1em;
-    color:white;
+    color:#ADB0BA;
 
 
 }
@@ -20,16 +20,16 @@
 
 
 nav {
-	background-color: #666666;
+	background-color: #D1E5E8;
 	padding: 1.5rem;
 	text-align: center;
 }
 
 nav a:hover, nav a:active, nav a:focus {
-	background-color: black;
+	background-color: #5F929D;
 	-webkit-transition: background-color 1s;
 	transition: background-color 1s;
-    color:red;
+    color:black;
 
 }
 
@@ -238,7 +238,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333333;
-    background-color: #ffffff;
+    
 }
 input,
 button,
