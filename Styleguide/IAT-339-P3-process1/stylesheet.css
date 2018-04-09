@@ -1,3 +1,32 @@
+
+.section nav a{
+  
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+  background-color: #ffffff;
+  font-family: Arial, Verdana, sans-serif;
+  
+  width: 8em;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+}
+
+nav {
+  
+  padding: 1.5em;
+  text-align: center;
+}
+
+nav a:hover, nav a:active, nav a:focus {
+  background-color:   #00BFFF;
+ 
+  transition: background-color 1s;
+}
+
+
 img#homepage{
 	height: 50%;
     width: 50%;
@@ -29,7 +58,7 @@ img#contract{
 }
 section#font{
 	font-size:20px;
-	font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", 
+	
 }
 
 section#fontP{
@@ -70,4 +99,107 @@ img#yellow{
    height: 50%;
     width: 50%;
 }
+
+#color1{
+  background-color: #f3f3f3;
+  font-size:2em;
+}
+
+#color2{
+  background-color: #F8ECDE;
+  font-size:2em;
+}
+
+#color3{
+  background-color: #F9DBC6;
+  font-size:2em;
+}
+
+#color4{
+  background-color: #D1E5E8;
+  font-size:2em;
+}
+
+
+.col-container {
+    display: table;
+    width: 80%;
+   float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col {
+    display: table-cell;
+   }
+
+
+   /*Grid Structure*/
+.row{
+  width: 100%;
+  margin: 10px 0;
+}
+
+.col-1{
+  display: inline-block;
+  position: relative;
+  padding: 0 15px;
+  width: 8.333333%;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(189, 167, 209, 0.5);
+}
+
+.col-2{
+  display: inline-block;
+  position: relative;
+  padding: 0 15px;
+  width: 16.666667%;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(189, 167, 209, 0.5);
+}
+
+.col-3{
+  display: inline-block;
+  position: relative;
+  padding: 0 15px;
+  width: 25%;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(189, 167, 209, 0.5);
+}
+
+.col-4{
+  display: inline-block;
+  position: relative;
+  padding: 0 15px;
+  width: 33.333333%;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(189, 167, 209, 0.5);
+}
+
+.col-6{
+  display: inline-block;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(189, 167, 209, 0.5);
+}
+
+.col-12{
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(189, 167, 209, 0.5);
+}
+
+body{
+	text-align: center;
+	background-color: #D1E5E8;
+}
+
+
+
 

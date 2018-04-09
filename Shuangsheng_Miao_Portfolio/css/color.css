@@ -1,5 +1,5 @@
 .contract-color{
-	background-color:#f3f3f3;
+	background-color:#cccccc;
 }
 
 .project-color{
@@ -26,4 +26,12 @@
 
 body{
 	background-color: #D1E5E8;
+}
+
+
+
+button{
+	margin-bottom: 5em;
+	background-color: #F8ECDE;
+	font-size: 20px;
 }
